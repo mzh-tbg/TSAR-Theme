@@ -1,0 +1,21 @@
+{
+    "name": "TSAR Theme",
+    "displayName": "TSAR Theme",
+    "description": "The TSAR theme from the zed coede editor",
+    "version": "0.0.2",
+    "publisher": "someplace",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "TSAR",
+          "uiTheme": "vs-dark",
+          "path": "./themes/theme.json"
+        }
+      ]
+    }
+  }
+  
